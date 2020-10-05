@@ -13,11 +13,11 @@ using System.Windows.Shapes;
 namespace Yensi_P1_AP1.UI.Registro
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for rCiudades.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class rCiudades : Window
     {
-        public Window1()
+        public rCiudades()
         {
             InitializeComponent();
         }
