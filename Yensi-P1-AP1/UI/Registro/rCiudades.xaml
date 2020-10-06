@@ -38,7 +38,7 @@
 
                 <StackPanel Orientation="Horizontal" Margin="0,15" >
 
-                    <Button x:Name="NuevoButton" Margin="5,0">
+                    <Button x:Name="NuevoButton" Margin="5,0" Click="NuevoButton_Click">
 
                         <StackPanel Orientation="Horizontal">
 
@@ -50,7 +50,7 @@
 
                     </Button>
 
-                    <Button x:Name="GuardarButton"   Margin="5,0" >
+                    <Button x:Name="GuardarButton"   Margin="5,0" Click="GuardarButton_Click" >
 
                         <StackPanel Orientation="Horizontal">
 
@@ -63,7 +63,7 @@
 
                     </Button>
 
-                    <Button x:Name="EliminarButton"  Margin="5,0" >
+                    <Button x:Name="EliminarButton"  Margin="5,0" Click="EliminarButton_Click" >
 
                         <StackPanel Orientation="Horizontal">
 

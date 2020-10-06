@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Yensi_P1_AP1.UI.Consulta;
+using Yensi_P1_AP1.UI.Registro;
 
 namespace Yensi_P1_AP1
 {
@@ -24,5 +26,26 @@ namespace Yensi_P1_AP1
         {
             InitializeComponent();
         }
+
+        private void CiudadesMenuItem_Click(object sender, RoutedEventArgs e)
+
+        {
+
+            rCiudades rc = new rCiudades();
+
+            rc.Show();
+
+        }
+
+        private void ConsultaUMenuItem_Click(object sender, RoutedEventArgs e)
+
+        {
+
+            cCiudades cc = new cCiudades();
+
+            cc.Show();
+
+
+         }
     }
 }
