@@ -38,7 +38,7 @@ namespace Yensi_P1_AP1.UI.Consulta
 
                 {
 
-                    case 0: //EstudianteId
+                    case 0: //CiudadesId
 
                         listado = CiudadesBLL.GetList(e => e.CiudadID == Utilidades.ToInt(CriterioTextBox.Text));
 

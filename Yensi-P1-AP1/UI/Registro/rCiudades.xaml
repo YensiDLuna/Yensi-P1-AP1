@@ -12,13 +12,13 @@
             <StackPanel Orientation="Vertical" Margin="10,-10,155,10">
 
                 <StackPanel Orientation="Vertical">
-                    <Label Content="cuidadesID:" />
+                    <Label Content="CuidadesID:" />
 
                     <StackPanel Orientation="Horizontal" >
                         <TextBox x:Name="CiudadesIdTextBox" Text="{Binding CiudadesId}" Width="100"  Height="18" />
-                        <Button x:Name="BuscarButton" Margin="5,0" Click="BuButton_Clic" >
+                        <Button x:Name="BuscarButton" Margin="5,0" Click="BuscarButton_Clic" >
                             <StackPanel Orientation="Horizontal">
-                                <!--<Image Source="/Resources/Buscar.png"  />-->
+                                <Image Source="/Resource/Buscar.png"  />
                                 <Label Content="Buscar" />
                             </StackPanel>
                             
@@ -42,7 +42,7 @@
 
                         <StackPanel Orientation="Horizontal">
 
-                            <!--<Image Source="/Resources/Nuevo.png"  />-->
+                            <Image Source="/Resource/add.png"  />
 
                             <Label Content="Nuevo" />
 
@@ -55,7 +55,7 @@
                         <StackPanel Orientation="Horizontal">
 
 
-                            <!--<Image Source="/Resources/Guardar.png"  />-->
+                            <Image Source="/Resource/Guardar.png"  />
 
                             <Label Content="Guardar" />
 
@@ -67,7 +67,7 @@
 
                         <StackPanel Orientation="Horizontal">
 
-                            <!--<Image Source="/Resources/Eliminar.png"  />-->
+                            <Image Source="/Resource/EliminarT.png"  />
 
                             <Label Content="Eliminar" />
 

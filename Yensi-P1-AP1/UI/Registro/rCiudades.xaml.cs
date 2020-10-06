@@ -50,7 +50,7 @@ namespace Yensi_P1_AP1.UI.Registro
             return esValido;
         }
 
-        private void BuButton_Clic(object serder, RoutedEventArgs e)
+        private void BuscarButton_Clic(object serder, RoutedEventArgs e)
         {
             Ciudades encotrado = CiudadesBLL.Buscar(Utilidades.ToInt(CiudadesIdTextBox.Text));
             if (encotrado != null)

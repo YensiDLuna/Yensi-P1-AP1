@@ -49,7 +49,7 @@
 
                     <StackPanel Orientation="Horizontal" >
 
-                        <!--  <Image Source="/Resources/Buscar.png" />-->
+                        <Image Source="/Resource/Buscar.png" />
 
                         <Label Content="Buscar" />
 
